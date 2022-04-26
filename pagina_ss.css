@@ -1,0 +1,149 @@
+@media (min-width: 700px) {
+    .leading{
+        display: flex;
+        align-items: center;
+    }
+}
+
+/*GRID-LAYOUT*/
+.cards{
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+grid-gap: 30px;
+}
+
+.cards {
+    max-width: 960px;
+    border-radius: 25px;
+    margin: 0 auto 30px;
+    padding: 50px;
+}
+
+article{
+position: absolute;
+right: 0px;
+background-color: black;
+}
+
+.article-img{
+    height: 422px;
+    width: 278px;
+    object-fit: cover;
+    margin-right: 100px;
+    margin-bottom: 150px;
+}
+
+.article-img:hover{
+    height: 422px;
+    width: 278px;
+    transform: scale(1.2); 
+    background-color: rgb(172, 0, 0);
+    transition: 1.5s;
+}
+
+.article-title{
+    position: absolute;
+    bottom: 100px;
+    width: 278px;
+    padding: 10px;
+    color: rgb(240, 248, 255);
+    background-color: rgba(211, 211, 211, 0.301);
+    font-size: 15px;
+    text-align: center;
+}
+
+.article-title2{
+    position: absolute;
+    bottom: 0px;
+    width: 278px;
+    padding: 10px;
+    color: rgb(240, 248, 255);
+    background-color: rgba(211, 211, 211, 0.301);
+    font-size: 11px;
+    text-align: center;
+    height: 96px;
+}
+
+.article-img3{
+    height: 539px;
+    width: 1884px;
+    margin-bottom: 110px;
+    margin-left: 10px;
+}
+
+.bttnn{
+    background: rgb(0, 0, 0);
+    color: white;
+    width: 280px;
+    height: 45px;
+    border-radius: 20px;
+    border-color: rgb(172, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 450px;
+    margin-bottom: 30px;
+    align-items: center;
+    margin-left: 880px;
+}
+
+.bttnn:hover{
+    background-color: rgb(172, 0, 0);
+    transition: 1.5s;
+    background-image: url(Flyer/Botão\ Batman.gif);
+}
+
+.tabhome2 {
+    margin: 0 auto;
+    color: black;
+}
+
+.article-title4{
+    position: absolute;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    bottom: 676px;
+    width: 278px;
+    padding: 10px;
+    color: rgb(240, 248, 255);
+    background-color: rgba(211, 211, 211, 0.301);
+    font-size: 15px;
+    text-align: center;
+}
+
+.article-title5{
+    position: absolute;
+    bottom: 577px;
+    width: 278px;
+    padding: 10px;
+    color: rgb(240, 248, 255);
+    background-color: rgba(211, 211, 211, 0.301);
+    font-size: 11px;
+    text-align: center;
+    height: 96px;
+}
+
+.article-title7{
+    position: absolute;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    bottom: 1248px;
+    width: 278px;
+    padding: 10px;
+    color: rgb(240, 248, 255);
+    background-color: rgba(211, 211, 211, 0.301);
+    font-size: 15px;
+    text-align: center;
+}
+
+.article-title8{
+    position: absolute;
+    bottom: 1149px;
+    width: 278px;
+    padding: 10px;
+    color: rgb(240, 248, 255);
+    background-color: rgba(211, 211, 211, 0.301);
+    font-size: 10px;
+    text-align: center;
+    height: 96px;
+}
